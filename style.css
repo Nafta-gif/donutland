@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: blueviolet;
+}
+
+/* SECTION HEADER */
+
+.wrap {
+  padding: 20px 2%;
+  background-color: white;
+  top: 0;
+  /* left: 0; */
+  width: 80%;
+  position: fixed;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header {
+  display: flex;
+  justify-content: center;
+}
+.header-logo {
+}
+
+.emptiness {
+  width: 10%;
+}
+.wrap a {
+  text-decoration: none;
+  color: #ffaac9;
+  margin: 0 10px;
+}
